@@ -1,1 +1,7 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+ <div class="flex flex-col gap-1.5">
+    <label for="email" class="text-sm font-medium text-gray-700">Email Address</label>
+    <input type="email" id="email" placeholder="name@example.com" 
+      class="px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none">
+  </div>

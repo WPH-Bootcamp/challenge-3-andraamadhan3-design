@@ -6,11 +6,446 @@
     <title>Assignment 3 - Landing Page</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <!-- ========== NAVBAR ========== -->
+  <body class="bg-[#000000] text-white w-360 h-1059.75 opacity-100">
+    <header id="navbar">
+      <nav
+        class="bg-[#00000099] backdrop-blur[40px] 2xl:w-360 2xl:opacity-100 columns-2 items-center py-3 w-360 h-21 flex justify-between px-35 border-b opacity-100"
+      >
+        <div class="font-bold">
+          <h1>Tech.</h1>
+        </div>
 
-    <!-- ========== HERO SECTION ========== -->
+        <ul class="flex list-none gap-6 justify-between m-0 p-0">
+          <li>About</li>
+          <li>Service</li>
+          <li>Our Work</li>
+          <li>Team</li>
+        </ul>
 
-    <!-- ========== FOOTER ========== -->
+        <div
+          class="p-4 text-base font-semibold text-white bg-[#421ABC] border-none rounded-xl cursor-pointer transition-all duration-300 ease-in-out flex items-center justify-center relative overflow-hidden"
+        >
+          <button>Contact us</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="hero-section relative flex flex-row items-center px-35 w-360 h-187.5 bg-linier-to-b from-[#000000_17.55%] to-[rgba(33,10,94,0.3)_136.21%] isolate overflow-hidden"
+      >
+        <div
+          class="hero-content w-171.75 h-70.5 flex flex-col gap-12 opacity-100"
+        >
+          <h2
+            class="font-display font-bold-900 text-display-3xl leading-display-3xl tracking-[-0.03em]"
+          >
+            Build with the Future.
+          </h2>
+          <p
+            class="font-body font-normal text-text-xl leading-text-xl tracking-normal"
+          >
+            From building sleek websites and mobile apps to integrating AI
+            solutions, we help brands turn ideas into powerful digital
+            experiences that connect, engage, and scale.
+          </p>
+          <button
+            class="bg-[#421ABC] w-75 h-12 gap-1 rotate-0 opacity-100 rounded-full p-2 flex items-center text-center"
+          >
+            Let's Talk
+          </button>
+        </div>
+
+        <article>
+          <div class="">
+            <img src="./hero.img/hand1.png" class="" alt="hand-holding 1" />
+            <img src="./hero.img/iphone.png" class="" alt="iphone 2" />
+            <img src="./hero.img/case.png" class="" alt="case 3" />
+            <img src="./hero.img/hand2.png" class="" alt="finger 4" />
+          </div>
+        </article>
+      </section>
+
+      <section id="who" class="Who We Are Section">
+        <div class="w-360 h-83 opacity-100 py-20 px-35 gap-8">
+          <h1
+            class="w-290 h-14 opacity-100 font-bold text-15 leading-18 tracking-[-0.03em] text-center"
+          >
+            Who We Are
+          </h1>
+          <p
+            class="w-290 h-21 opacity-100 font-semibold text-9 leading-11 tracking-[-0.02em] text-center"
+          >
+            We're a group of tech students trained in<span
+              >building real-world digital products.</span
+            >From coding to design, we<span
+              >craft modern solutions for modern problems.</span
+            >
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="what"
+        class="What We Do Section w-360 h-194 opacity-100 py-20 px-35 gap-16"
+      >
+        <div class="w-290 h-26 opacity-100 gap-4">
+          <h2
+            class="w-290 h-14 opacity-100 font-bold text-15 leading-18 tracking-[-0.03em] text-center bg-[#FDFDFD]"
+          >
+            What We Do
+          </h2>
+          <p
+            class="w-290 h-8 opacity-100 font-normal text-4.5 leading-7 tracking-[-0.03em] text-center bg-[#717680]"
+          >
+            We offer simple tech solutions to help your ideas grow.
+          </p>
+        </div>
+        <div class="w-290 h-112 opacity-100 gap-5">
+          <div class="w-290 h-53.5 opacity-100 gap-5">
+            <article
+              class="w-93.33 h-53.5 opacity-100 gap-5 rounded-3 border p-6 border-solid border-[#181D27]"
+            >
+              <icon></icon>
+              <div class="w-81.33 h-24.5 flex flex-col gap-1 opacity-100">
+                <h2
+                  class="w-81.33 h-8.5 opacity-100 font-bold text-5 leading-7.5 tracking-[-0.03em] text-center bg-[#FDFDFD]"
+                >
+                  Web Development
+                </h2>
+                <p
+                  class="w-81.33 h-15 opacity-100 font-normal text-4 leading-6 tracking-[-0.03em] text-center bg-[#717680]"
+                >
+                  Modern websites using HTML, CSS, JavaScript, and frameworks.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="w-81.33 h-53.3 p-6 flex flex-col gap-5 rounded-xl border-solid opacity-100 border-[#181D27]"
+            >
+              <icon></icon>
+              <div class="w-81.33 h-24.5 flex flex-col gap-1 opacity-100">
+                <h2
+                  class="w-81.33 h-8.5 opacity-100 font-bold text-xl leading-relaxed tracking-[-0.03em] text-center bg-[#FDFDFD]"
+                >
+                  App Development
+                </h2>
+                <p
+                  class="w-[325.33px] h-15 rotate-0 opacity-100 font-normal text-md tracking-[-0.03em] text-center bg-[#717680]"
+                >
+                  Mobile and desktop apps tailored for your needs
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="w-[93.33px] h-[53.5px] gap-5 rounded-xl border p-6 border-[#181D27]"
+            >
+              <icon></icon>
+              <div class="w-[81.33px] h-[24.5px] gap-1">
+                <h2
+                  class="w-[81.33px] h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+                >
+                  AI Integration
+                </h2>
+                <p
+                  class="w-[81.33px] h-15 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+                >
+                  Smart solutions using AI-powered tools and automation.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="w-290 h-53.5 opacity-100 gap-4">
+            <article
+              class="w-94 h-53.5 gap-5 rounded-xl border p-6 border-[#181D27]"
+            >
+              <icon></icon>
+              <div class="w-82 h-24.5 gap-1">
+                <h2
+                  class="w-82 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+                >
+                  UI/UX Design
+                </h2>
+                <p
+                  class="w-82 h-15 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+                >
+                  Clean and functional designs for better user experience.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="w-94 h-53.5 gap-5 rounded-xl border p-6 border-[#181D27]"
+            >
+              <icon></icon>
+              <div class="w-82 h-24.5 gap-1">
+                <h2
+                  class="w-82 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+                >
+                  Landing Page Design
+                </h2>
+                <p
+                  class="w-82 h-15 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+                >
+                  High-converting landing pages for your product or business.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="w-94 h-53.5 gap-5 rounded-xl border p-6 border-[#181D27]"
+            >
+              <icon></icon>
+              <div class="w-82 h-24.5 gap-1">
+                <h2
+                  class="w-82 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+                >
+                  CMS Integration
+                </h2>
+                <p
+                  class="w-82 h-15 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+                >
+                  Easy-to-manage websites with  WordPress or Webflow.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="our"
+        class="Our Work Section w-360 h-188.75 pt-20 pr-35 pb-20 pl-35 gap-16"
+      >
+        <div class="w-290 h-26 gap-4">
+          <h2
+            class="w-290 h-14 font-bold text-display-xl leading-display-xl -tracking-widest text-center bg-[#FDFDFD]"
+          >
+            Our Work
+          </h2>
+          <p
+            class="w-290 h-8 font-normal text-lg leading-lg -tracking-widest text-center bg-[#717680]"
+          >
+            See what we’ve built with passion and purpose
+          </p>
+        </div>
+
+        <div class="portofolio w-289.75 h-106.75 gap-5">
+          <div class="w-93.25 h-106.75 gap-5">
+            <img
+              src="./Our Work.img/portfolio1.png"
+              class="w-93.25 h-93.25 rounded-2xl"
+              alt="portfolio 1"
+            />
+            <p
+              class="w-93.25 h-8.5 font-bold text-xl leading-xl -tracking-widest bg-[#FDFDFD]"
+            >
+              portfolio 1
+            </p>
+          </div>
+          <div class="w-93.25 h-106.75 gap-5">
+            <img
+              src="./Our Work.img/portfolio2.png"
+              class="w-93.25 h-93.25 rounded-2xl"
+              alt="portfolio 2"
+            />
+            <p
+              class="w-93.25 h-8.5 font-bold text-xl leading-xl -tracking-widest bg-[#FDFDFD]"
+            >
+              portfolio 2
+            </p>
+          </div>
+          <div class="w-93.25 h-93.25 rounded-2xl">
+            <img
+              src="./Our Work.img/portfolio3.png"
+              class="w-93.25 h-93.25 rounded-2xl"
+              alt="portfolio 3"
+            />
+            <p
+              class="w-93.25 h-8.5 font-bold text-xl leading-xl -tracking-widest bg-[#FDFDFD]"
+            >
+              portfolio 3
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="meet" class="w-360 h-159 pt-20 pr-35 pb-20 pl-35 gap-16">
+        <div class="w-290 h-26 gap-4">
+          <h2
+            class="w-290 h-14 font-bold text-display-xl leading-display-xl -tracking-widest text-center bg-[#FDFDFD]"
+          >
+            Meet the Team
+          </h2>
+          <p
+            class="w-290 h-8 font-normal text-lg leading-lg -tracking-widest text-center bg-[#717680]"
+          >
+            A group of future-ready tech makers.
+          </p>
+        </div>
+
+        <div class="w-290 h-77 gap-14">
+          <article class="w-55 h-77 gap-5">
+            <img
+              src="./Meet the Team.img/jasper kim1.png"
+              class="w-55 h-55"
+              alt="Jasper Kim Project Manager"
+            />
+            <div class="w-55 h-17 gap-1">
+              <h3
+                class="w-55 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+              >
+                Jasper Kim
+              </h3>
+              <p
+                class="w-55 h-7.5 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+              >
+                Project Manager
+              </p>
+            </div>
+          </article>
+
+          <article class="w-55 h-77 gap-5">
+            <img
+              src="./Meet the Team.img/alex jonathan.png"
+              class="w-55 h-55"
+              alt="Alex Jonathan Full-stack Developer"
+            />
+            <div class="w-55 h-17 gap-1">
+              <h3
+                class="w-55 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+              >
+                Alex Jonathan
+              </h3>
+              <p
+                class="w-55 h-7.5 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+              >
+                Full-stack Developer
+              </p>
+            </div>
+          </article>
+
+          <article class="w-55 h-77 gap-5">
+            <img
+              src="./Meet the Team.img/mario lopez.png"
+              class="w-55 h-55"
+              alt="Mario Lopez UI/UX Designer"
+            />
+            <div class="w-55 h-17 gap-1">
+              <h3
+                class="w-55 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+              >
+                Mario Lopez
+              </h3>
+              <p
+                class="w-55 h-7.5 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+              >
+                UI/UX Designer
+              </p>
+            </div>
+          </article>
+
+          <article class="w-55 h-77 gap-5">
+            <img
+              src="./Meet the Team.img/jasper kim2.png"
+              class="w-55 h-55"
+              alt="Jasper Kim Data Scientist"
+            />
+            <div class="w-55 h-17 gap-1">
+              <h3
+                class="w-55 h-8.5 font-bold text-xl leading-xl -tracking-widest text-center bg-[#FDFDFD]"
+              >
+                Jasper Kim
+              </h3>
+              <p
+                class="w-55 h-7.5 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+              >
+                Data Scientist
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="colaboration"
+        class="w-360 h-207 gap-16 pt-20 pr-35 pb-30 pl-35"
+      >
+        <div class="w-290 h-26 gap-4">
+          <h2
+            class="w-290 h-14 font-bold text-display-xl leading-display-xl -tracking-widest text-center bg-[#FDFDFD]"
+          >
+            Let’s Collaborate
+          </h2>
+          <p
+            class="w-290 h-8 font-normal text-lg leading-lg -tracking-widest text-center bg-[#717680]"
+          >
+            Need a tech team? We're ready to help
+          </p>
+        </div>
+
+        <form class="w-148 h-115 gap-10">
+          <div class="w-148 h-93 gap-5">
+            <div class="w-148 h-20.5 gap-1.5">
+              <label
+                for="name"
+                class="w-148 h-7 font-bold text-sm leading-sm tracking-normal bg-[#FDFDFD]"
+                >Name</label
+              >
+              <input
+                type="name"
+                id="name"
+                placeholder="Enter your name"
+                class="w-148 h-12 gap-2 pt-2 pr-spacing-xl pb-2 pl-spacing-xl rounded-radius-xl border border-[#252B37] bg-[#000000]"
+              />
+            </div>
+            <div class="w-148 h-20.5 gap-1.5">
+              <label
+                for="email"
+                class="w-148 h-7 font-bold text-sm leading-sm tracking-normal bg-[#FDFDFD]"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                class="w-140 h-7.5 font-normal text-md leading-md -tracking-widest bg-[#717680]"
+              />
+            </div>
+            <div class="w-148 h-42 gap-1.5">
+              <label
+                for="message"
+                class="w-148 h-7 font-bold text-sm leading-sm tracking-normal bg-[#FDFDFD]"
+                >Message</label
+              >
+              <input
+                type="message"
+                id="message"
+                placeholder="Enter your message"
+                class="w-148 h-33.5 gap-2 pt-2 pr-spacing-xl pb-2 pl-spacing-xl rounded-radius-xl border border-[#252B37] bg-[#000000]"
+              />
+            </div>
+          </div>
+          <button class="w-148 h-12 gap-1 rounded-radius-full p-2 bg-[#421ABC]">
+            send
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer
+      id="footer"
+      class="w-360 h-19.5 border-t pt-6 px-2 pb-6 gap-2 border-[#181D27]"
+    >
+      <p
+        class="w-93.25 h-7.5 font-normal text-md leading-md -tracking-widest text-center bg-[#717680]"
+      >
+        © 2025 Web Programming Hack. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
